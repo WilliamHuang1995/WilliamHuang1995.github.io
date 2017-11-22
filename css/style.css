@@ -1,7 +1,14 @@
 body{
 	margin-top: 60px;
+    background-size: cover;
+    
 }
 
 .img-responsive{
     margin: 0 auto;
 }
+
+.fa{
+    font-size: 36px!important;
+}
+
