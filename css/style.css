@@ -1,7 +1,12 @@
 body{
-	margin-top: 60px;
+	margin-top: 0px;
     background-size: cover;
-    
+}
+h1{
+    font-family: "Arial" ;
+}
+.container-fluid{
+    margin-top:60px;
 }
 
 .img-responsive{
@@ -11,4 +16,6 @@ body{
 .fa{
     font-size: 36px!important;
 }
-
+div.about-me ul li{
+  list-style-type: none;
+}
