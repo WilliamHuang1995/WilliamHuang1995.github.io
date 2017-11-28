@@ -1,8 +1,13 @@
 import Typed from '../node_modules/typed.js/src/typed.js';
 
 var options = {
-    strings: ['the Cool','the Smart','the Generous'],
-    typeSpeed: 30,
+    strings: ['Aspired to be the best ^1500',
+        'Always ready to learn ^1500',
+        'I am capable and passionate ^1500',
+        'My name is..',
+        'William Huang ^5000'
+    ],
+    typeSpeed: 40,
     backSpeed: 1000,
     fadeOut: true,
     loop: true
