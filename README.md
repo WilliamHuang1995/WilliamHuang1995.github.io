@@ -18,7 +18,8 @@ Do the following:</br>
 ```
 npm install typed.js
 ```  
+**Make sure you run this command at the Project Root!**
 
 Once installed please copy the files in the src folder into my js folder  
-And load index.html onto a server
-**Make sure you run this command at the Project Root!**
+And load index.html onto a server  
+
