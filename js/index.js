@@ -3,8 +3,7 @@ import Typed from './typed.js';
 var options = {
     strings: ['Aspired to be the best ^1500',
         'Always ready to learn ^1500',
-        'I am capable and passionate ^1500',
-        'My name is..',
+        'Capable and passionate ^1500',
         'William Huang ^5000'
     ],
     typeSpeed: 40,
