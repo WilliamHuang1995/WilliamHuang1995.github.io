@@ -55,48 +55,51 @@
 
 
 
-</head>
-<body background="img/background.png">
-    <h1 class='text-center'><span id="typed">_</span></h1>
-    <div class='container-fluid'>
+    </head>
+    <body background="img/background.png">
+        <h1 class='header text-center'><span id="typed">William Huang</span></h1>
+        <div class='container-fluid'>
 
-        <div class="col-md-12">
-            <div class="row">
-                <div class="profile-pic col-md-12">
-                    <img class="img-responsive img-circle" src="img/william.jpg" width="25%" height="25%">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="profile-pic col-md-12">
+                        <img class="img-responsive img-circle" src="img/william.jpg" width="25%" height="25%">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-12">
-            <div class="text-center"><h3> <a class="btn btn-info" href="resume/William-Huang-Resume.pdf" target='_blank'>Résumé </a></h3></div>
-        </div>
-    </div>
-    <div class="footer col-md-12">
-        <div class="text-center">
-            <span ><a target='_blank' href="https://www.facebook.com/williamwjh/"><i class="fa fa-facebook-square"></i></a>
-                <a target='_blank' href="https://www.github.com/WilliamHuang1995/"><i class="fa fa-github-square"></i></a>
-                <a target='_blank' href="https://www.linkedin.com/in/williamhuang1995/"><i class="fa fa-linkedin-square"></i></a>
-                <a target='_blank' href="https://twitter.com/williamhuang821"><i class="fa fa-twitter-square"></i></a>
-            </span>
-        </div>
-    </div>
+            <div class="col-md-12">
+                <div class="text-center"><h3> <a class="btn btn-info" id="resume"  target='_blank' value="">Résumé </a></h3></div>
+                <div>
+                    <embed class="pdf" style="display:none;" src="resume/William-Huang-Resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="900px" height="1100"/>
+                </div>
+            </div>
 
-</body>
-<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js">
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyDo_CTrkR5E5t-NYL58-lavBDKgVcYQGN8",
-        authDomain: "github-page-c6258.firebaseapp.com",
-        databaseURL: "https://github-page-c6258.firebaseio.com",
-        projectId: "github-page-c6258",
-        storageBucket: "github-page-c6258.appspot.com",
-        messagingSenderId: "206984406716"
-    };
-    firebase.initializeApp(config);
-</script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </div>
+        <div class="footer col-md-12">
+            <div class="text-center">
+                <span ><a target='_blank' href="https://www.facebook.com/williamwjh/"><i class="fa fa-facebook-square"></i></a>
+                    <a target='_blank' href="https://www.github.com/WilliamHuang1995/"><i class="fa fa-github-square"></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/in/williamhuang1995/"><i class="fa fa-linkedin-square"></i></a>
+                    <a target='_blank' href="https://twitter.com/williamhuang821"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+        </div>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js">
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDo_CTrkR5E5t-NYL58-lavBDKgVcYQGN8",
+            authDomain: "github-page-c6258.firebaseapp.com",
+            databaseURL: "https://github-page-c6258.firebaseio.com",
+            projectId: "github-page-c6258",
+            storageBucket: "github-page-c6258.appspot.com",
+            messagingSenderId: "206984406716"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </html>

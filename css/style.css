@@ -32,8 +32,13 @@ h1{
 div.about-me ul li{
     list-style-type: none;
 }
+
+.pdf{
+    margin:0 auto;
+    
+}
 .footer{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
