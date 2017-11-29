@@ -24,13 +24,13 @@ function display(){
     if($('.pdf').css("display")==="none"){
         $('.pdf').css("display","block")
         $('.profile-pic').css("display","none")
-        //$('.header').css("display","none")
+        
         $('#resume').text('Return')
         scrollToPDF()
     }else{
         $('.pdf').css("display","none")
         $('.profile-pic').css("display","block")
-        //$('.header').css("display","block")
+        
         $('#resume').text('Résumé')
     }
 }
