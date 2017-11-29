@@ -7,8 +7,8 @@ var options = {
         'William Huang ^5000'
     ],
     typeSpeed: 40,
-    backSpeed: 1000,
-    fadeOut: true,
-    loop: true
+    fadeOut:true,
+    showCursor: true,
+    loop: false
 }
 var typed = new Typed("#typed", options);
