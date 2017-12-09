@@ -1,0 +1,9 @@
+<li>Nationality: Taiwan</li>
+                        <li>Spoken Language: English, Mandarin (equally fluent)</li>
+                        <li>Education: University of California, San Diego</li>
+                        <li>Major: Mathematics/Computer Science</li>
+                        <li>Languages: Java, JavaScript, C++, Python, SQL, MATLAB, and expanding</li>
+                        <li>Must Have Tools: Git, Docker</li>
+                        <li>Choice of IDE: anything made by JetBrains, Brackets, Notepad++ </li>
+                        <li>Work Experience: 1 year (Please refer to my resume for more details)</li>
+    <a href="resume/William-Huang-Resume.pdf" target='_blank'>View Résumé </a>

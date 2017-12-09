@@ -10,12 +10,16 @@ Whenever I learn something new about web development, I try to add it to my pers
 
 I have a trello page for this.
   
-Might also have to consult someone to evaluate my code and stuff. 
+Trello: https://trello.com/b/RClRL9kk/personal-website
 
 For this website to run properly, you have to install typed.js
 
 Do the following:</br>
 ```
 npm install typed.js
-```
+```  
 **Make sure you run this command at the Project Root!**
+
+Once installed please copy the files in the src folder into my js folder  
+And load index.html onto a server  
+
