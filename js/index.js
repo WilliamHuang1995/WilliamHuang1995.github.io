@@ -12,7 +12,7 @@ var options = {
     typeSpeed: 40,
     fadeOut:true,
     showCursor: true,
-    loop: false
+    loop: true
 }
 var typed = new Typed("#typed", options);
 
