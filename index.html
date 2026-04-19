@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
   <meta name="google-site-verification" content="mJfb1bKkvCKb3P_IwRa3XUTS09nOO2CgR6W4kEgQ280">
 
   <!-- Google Analytics -->
@@ -26,18 +27,38 @@
 <body>
   <main>
     <img src="img/william.jpg" alt="William Huang" class="avatar">
-    <h1>William Huang</h1>
-    <p class="bio">Software engineer.</p>
 
-    <section class="projects">
+    <h1>William Huang <span class="age" id="age-william"></span></h1>
+    <p class="role">Engineering Manager at <a href="https://www.straitsx.com" target="_blank" rel="noopener">StraitsX</a> &middot; Taiwan</p>
+    <p class="personal">Father of Douglas (<span id="age-douglas"></span>) and Quintin (<span id="age-quintin"></span>)</p>
+
+    <section>
       <h2>Projects</h2>
       <ul>
         <li>
           <a href="https://github.com/WilliamHuang1995/eng-tracker" target="_blank" rel="noopener">eng-tracker ↗</a>
-          <p>GitHub PR analytics dashboard for engineering managers. Tracks merge time, review engagement, and silent approvals.</p>
           <span class="tag">server coming soon</span>
+          <p>GitHub PR analytics dashboard for engineering managers. Tracks merge time, review engagement, and silent approvals.</p>
+        </li>
+        <li>
+          <span class="project-name">plateful</span>
+          <span class="tag">in progress</span>
+          <p>Social app for sharing meals with people who care about your health. Mild peer pressure to eat better.</p>
         </li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Stack</h2>
+      <p class="stack">GraphQL &middot; Golang &middot; MySQL &middot; Redis</p>
+      <p>Watching: <a href="https://github.com/openclaw" target="_blank" rel="noopener">OpenClaw ↗</a></p>
+      <p>Haven't written code manually in over a year.</p>
+      <p>Obsessed with Claude — <span class="highlight">talk to me about anything AI</span></p>
+    </section>
+
+    <section class="motd">
+      <p>Do unto others as you would have them do unto you.</p>
+      <p>AI won't replace us — it will replace those who refuse to adapt.</p>
     </section>
 
     <footer>
@@ -45,5 +66,16 @@
       <a href="https://www.linkedin.com/in/williamhuang1995/" target="_blank" rel="noopener">LinkedIn</a>
     </footer>
   </main>
+
+  <script>
+    function calcAge(birthday) {
+      const ms = Date.now() - new Date(birthday).getTime();
+      const years = ms / (365.25 * 24 * 60 * 60 * 1000);
+      return Math.round(years * 2) / 2;
+    }
+    document.getElementById('age-william').textContent = '(' + Math.floor(calcAge('1995-08-21')) + ')';
+    document.getElementById('age-douglas').textContent = calcAge('2022-02-08');
+    document.getElementById('age-quintin').textContent = calcAge('2024-10-05');
+  </script>
 </body>
 </html>
