@@ -19,13 +19,41 @@ main {
   padding: 0 24px;
 }
 
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  display: block;
-  margin-bottom: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.avatar-hover {
+  opacity: 0;
+}
+
+.avatar-wrapper:hover .avatar-default {
+  opacity: 0;
+}
+
+.avatar-wrapper:hover .avatar-hover {
+  opacity: 1;
 }
 
 h1 {
@@ -49,7 +77,6 @@ h1 {
 .personal {
   color: #666;
   font-size: 0.9rem;
-  margin-bottom: 48px;
 }
 
 a {
@@ -109,7 +136,7 @@ li p, section > p {
 }
 
 .highlight {
-  color: #4af626;
+  color: #888;
 }
 
 .motd {
