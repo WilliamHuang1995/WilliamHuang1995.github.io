@@ -66,16 +66,16 @@ h1 {
 .age {
   font-size: 1rem;
   font-weight: normal;
-  color: #444;
+  color: #777;
 }
 
 .role {
-  color: #888;
+  color: #aaa;
   margin-bottom: 4px;
 }
 
 .personal {
-  color: #666;
+  color: #999;
   font-size: 0.9rem;
 }
 
@@ -97,7 +97,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #444;
+  color: #5a8a50;
   margin-bottom: 16px;
 }
 
@@ -117,8 +117,8 @@ li {
 .tag {
   margin-left: 8px;
   font-size: 0.72rem;
-  color: #555;
-  border: 1px solid #2a2a2a;
+  color: #787878;
+  border: 1px solid #383838;
   padding: 1px 6px;
   border-radius: 3px;
   vertical-align: middle;
@@ -126,7 +126,7 @@ li {
 
 li p, section > p {
   font-size: 0.9rem;
-  color: #666;
+  color: #909090;
   margin-top: 4px;
 }
 
@@ -136,13 +136,13 @@ li p, section > p {
 }
 
 .highlight {
-  color: #888;
+  color: #aaa;
 }
 
 .motd {
-  border-left: 2px solid #222;
+  border-left: 2px solid #1f5c19;
   padding-left: 16px;
-  color: #555;
+  color: #888;
   font-size: 0.9rem;
   font-style: italic;
 }
@@ -155,7 +155,7 @@ footer {
 }
 
 footer a {
-  color: #555;
+  color: #777;
   font-size: 0.9rem;
 }
 
