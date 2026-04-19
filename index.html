@@ -1,91 +1,49 @@
 <!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="google-site-verification" content="mJfb1bKkvCKb3P_IwRa3XUTS09nOO2CgR6W4kEgQ280" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110123284-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="mJfb1bKkvCKb3P_IwRa3XUTS09nOO2CgR6W4kEgQ280">
 
-        gtag('config', 'UA-110123284-1');
-    </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110123284-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-110123284-1');
+  </script>
 
-    
-    
-    <title>William Huang</title>
-    <!-- ****** faviconit.com favicons ****** -->
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="/faviconit/favicon.ico">
-    <link rel="icon" type="image/png" sizes="196x196" href="/faviconit/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/faviconit/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/faviconit/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/faviconit/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/faviconit/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/faviconit/favicon-16.png">
-    <link rel="apple-touch-icon" href="/faviconit/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/faviconit/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/faviconit/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/faviconit/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/faviconit/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/faviconit/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/faviconit/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/faviconit/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/faviconit/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/faviconit/favicon-144.png">
-    <meta name="msapplication-config" content="/faviconit/browserconfig.xml">
-    <!-- ****** faviconit.com favicons ****** -->
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>William Huang</title>
 
-    <!--My own CSS configuration -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="/faviconit/favicon.ico">
+  <link rel="icon" type="image/png" sizes="196x196" href="/faviconit/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/faviconit/favicon-180.png">
 
-    <!--Font awesome-->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <h1 class='header text-center'><span id="typed">William Huang</span></h1>
-        <div class='container-fluid'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <img src="img/william.jpg" alt="William Huang" class="avatar">
+    <h1>William Huang</h1>
+    <p class="bio">Software engineer.</p>
 
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="profile-pic col-md-12">
-                        <img class="img-responsive img-circle" src="img/william.jpg" width="25%" height="25%">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="text-center"><h3> <a class="btn btn-info" id="resume"  target='_blank' value="">Résumé </a></h3></div>
-                <div>
-                    <embed class="pdf" src="resume/WilliamHuangResume.pdf#toolbar=0&navpanes=0" width="900px" height="1100"/>
-                </div>
-            </div>
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/WilliamHuang1995/eng-tracker" target="_blank" rel="noopener">eng-tracker ↗</a>
+          <p>GitHub PR analytics dashboard for engineering managers. Tracks merge time, review engagement, and silent approvals.</p>
+          <span class="tag">server coming soon</span>
+        </li>
+      </ul>
+    </section>
 
-        </div>
-        <div class="footer col-md-12">
-            <div class="text-center">
-                    <a target='_blank' href="https://www.github.com/WilliamHuang1995/"><i class="fa fa-github-square"></i></a>
-                    <a target='_blank' href="https://www.linkedin.com/in/williamhuang1995/"><i class="fa fa-linkedin-square"></i></a>
-                </span>
-            </div>
-        </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-        <!--personal script-->
-    <script type="module" src="js/html-parser.js"></script>
-    <script type="module" src="js/defaults.js"></script>
-    <script type="module" src="js/typed.js"></script>
-    <script type="module" src="js/initializer.js"></script>
-    <script type="module" src="js/index.js"></script>
-
-    </body>
-    
+    <footer>
+      <a href="https://github.com/WilliamHuang1995" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/williamhuang1995/" target="_blank" rel="noopener">LinkedIn</a>
+    </footer>
+  </main>
+</body>
 </html>
